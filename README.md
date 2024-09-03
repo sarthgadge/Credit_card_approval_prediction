@@ -1,23 +1,10 @@
 ![banner](assets/Credit_card_approval_banner.png)
 
 
-![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
-![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Credit-card-approval-prediction-classification)
-![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Credit-card-approval-prediction-classification)
-![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
-![License](https://img.shields.io/badge/License-MIT-green)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/semasuka/credit-card-approval-prediction-classification/main/cc_approval_pred.py)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-Badge [source](https://shields.io/)
 
 # Key findings: People with the highest income, and who have at least one partner, are more likely to be approved for a credit card.
 
 
-## Authors
-
-- [@semasuka](https://www.github.com/semasuka)
 
 ## Table of Contents
 
@@ -97,8 +84,6 @@ Top 3 models (with default parameters)
 
     ***Note***: There is always a trade-off between precision and recall. Choosing the right metrics depends on the problem you are solving.
 
-    ***Conclusion***: Since the time I worked on this project (beginning 2022), we were in the longest bull market (excluding March 2020 flash crash) ever recorded; we will use recall as our metric.
-
 
  **Lessons learned and recommendation**
 
@@ -112,52 +97,6 @@ Top 3 models (with default parameters)
 - Better interpretation of the chi-square test
 - Retrain the model without the least predictive features
 
-
-
-## Run Locally
-Initialize git
-
-```bash
-git init
-```
-
-
-Clone the project
-
-```bash
-git clone https://github.com/semasuka/Credit-card-approval-prediction-classification.git
-```
-
-enter the project directory
-
-```bash
-cd Credit-card-approval-prediction-classification
-```
-
-Create a conda virtual environment and install all the packages from the environment.yml (recommended)
-
-```bash
-conda env create --prefix <env_name> --file assets/environment.yml
-```
-
-Activate the conda environment
-
-```bash
-conda activate <env_name>
-```
-
-List all the packages installed
-
-```bash
-conda list
-```
-
-Start the streamlit server locally
-
-```bash
-streamlit run cc_approval_pred.py
-```
-If you are having issue with streamlit, please follow [this tutorial on how to set up streamlit](https://docs.streamlit.io/library/get-started/installation)
 
 ## Explore the notebook
 
